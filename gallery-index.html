@@ -1,0 +1,69 @@
+<!Doctype html>
+<html>
+	<head> <meta charset="utf-8"> <title>animated-image-gallery</title>
+		<!--link the css file-->
+		<link rel="stylesheet" href="gallery-styling.css" /> 
+		<!-- Add fancyBox CSS -->
+		<link rel="stylesheet" href="fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<link rel="stylesheet" href="fancybox/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="fancybox/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+	</head>
+	
+	<body>
+		<header>
+			<div class="container">
+				<nav id="navbar"> </nav>
+			</div> <!--container-->
+		</header>
+		
+		<section id="main"> <!--for image content-->
+			<div class="container">
+				<ul id="gallery">
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-0.jpg"><img src="prj-img/ak-h-0.jpg" height="100" width="100"> </a> </li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-1.jpg"><img src="prj-img/ak-h-1.jpg" height="100" width="100"> </a> </li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-2.jpg"><img src="prj-img/ak-h-2.jpg" height="100" width="100"> </a> </li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-3.jpg"><img src="prj-img/ak-h-3.jpg" height="100" width="100"> </a> </li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-4.jpg"><img src="prj-img/ak-h-4.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-5.jpg"><img src="prj-img/ak-h-5.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-6.jpg"><img src="prj-img/ak-h-6.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/ak-h-7.jpg"><img src="prj-img/ak-h-7.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/ak-k-0.jpg"><img src="prj-img/ak-k-0.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/ak-k-1.jpg"><img src="prj-img/ak-k-1.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/ak-k-2.jpg"><img src="prj-img/ak-k-2.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/ak-k-3.jpg"><img src="prj-img/ak-k-3.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Miscellaneous"> <a class="fancybox" rel="group" href="prj-img/ak-m-0.jpg"><img src="prj-img/ak-m-0.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/g2-h-0.jpg"><img src="prj-img/g2-h-0.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/g2-h-1.jpg"><img src="prj-img/g2-h-1.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Heart"> <a class="fancybox" rel="group" href="prj-img/g2-h-2.jpg"><img src="prj-img/g2-h-2.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/g2-k-0.jpg"><img src="prj-img/g2-k-0.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/g2-k-1.jpg"><img src="prj-img/g2-k-1.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/g2-k-2.jpg"><img src="prj-img/g2-k-2.jpg" height="100" width="100"> </a></li>
+					<li data-tags="Kidney"> <a class="fancybox" rel="group" href="prj-img/g2-k-3.jpg"><img src="prj-img/g2-k-3.jpg" height="100" width="100"> </a></li>
+				</ul>
+			</div> <!--second container-->
+			<hr> 
+			<footer>
+				<div class="container">
+					<p> HTML Photo Gallery &copy; 2020 </p>
+				</div> <!--Third container-->
+			</footer>
+		</section>
+	
+		<!-- Include JQuery -->
+		<script src="jquery.js"></script> 
+		<!--quicksand plug in-->
+		<script src="j-query-quicksand.js"></script> 
+		<!-- Fancybox js -->
+		<script type="text/javascript" src="fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="fancybox/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+		<script type="text/javascript" src="fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!--Include custom js-->
+		<script src="galley-js.js"></script> 
+		<script>
+			//Call Fancybox
+			$(document).ready(function(){ $(".fancybox").fancybox(); });
+		</script>
+	</body>
+	<!--link the j-query file-->
+</html> 
